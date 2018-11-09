@@ -1,0 +1,32 @@
+{
+  "name": "rdfkb",
+  "version": "0.0.1",
+  "description": "Small wrapper around some RDF tools to give a nice KB interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap --cov test[a-z0-9-_]*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sandhawke/rdfkb.git"
+  },
+  "keywords": [
+    "rdf",
+    "knowledge base",
+    "graph store",
+    "linked data",
+    "kb",
+    "knowledge graph"
+  ],
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/rdfkb/issues"
+  },
+  "homepage": "https://github.com/sandhawke/rdfkb#readme",
+  "dependencies": {
+    "@rdfjs/namespace": "^1.0.0",
+    "ldfetch": "^1.1.1-alpha",
+    "n3": "^1.0.0"
+  }
+}
